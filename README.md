@@ -1,13 +1,5 @@
 ﻿
-**CPEN 221 / Fall 2015: Machine Problem 3**
-The Graph ADT and Social Networks
-===
-
-### Logistics
-
-+ This is a group assignment and you will be assigned to groups.
-+ This is a 2-week machine problem, and will be due **Oct/26 6pm**.
-+ The weight for this machine problem is 7% of your raw score in the course.
+** The Graph ADT and Social Networks
 
 ### Background
 
@@ -83,40 +75,4 @@ If the input query file has multiple queries then the output file should have th
 + Duplicate queries should be ignored. 
 + All queries end with `?`; lines in the query input file that do not end with a `?` can also be ignored.
 
-### Testing Your Code
-Use JUnit to test the correctness of your implementation. Write tests that check the correctness of normal cases as well as edge cases of the Graph ADT and the algorithms. Tests should be in the package `ca.ubc.ece.cpen221.mp3.tests`.
-
-### Evaluation
-To earn full credit you must:
-+ Properly encapsulate your implementation. Use the most restrictive access level that makes sense for each of your fields and methods (i.e., use `private` unless you have a good reason not to). Instead of manipulating class fields directly, make them `private` and implement getter and setter methods to manipulate them from outside of the class. 
-+ Not edit any files in the `ca.ubc.ece.cpen221.mp3.staff` package or any of the method declarations we’ve initially provided for you.
-+ Make sure your code is readable. Use proper indentation and whitespace, abide by standard Java naming conventions, and add additional comments as necessary to document your code.
-+ Follow the Java code conventions, especially for naming and commenting. 
-
-### Additional hints
-+ You may create helper classes and helper methods to help you with the assignment, as long as your code is compatible with the provided interfaces.
-+ The tasks may be underspecified. Use your judgment. Write specifications. You can ask reasonable questions on Piazza.
-+ As long as your code runs in a reasonable amount of time, and returns the correct values, you do not need to worry about the complexity of your algorithms.
-+ Consider using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> in Eclipse to auto-format your code.
-
-### Grading guidelines
-We will grade your work _approximately_ as follows:
-
-<table>
-	<tr><td>Correct graph implementations</td><td>30%</td></tr>
-	<tr><td>Correct algorithm implementations</td><td>30%</td></tr>
-	<tr><td>Correct Twitter data analysis</td><td>10%</td></tr>
-	<tr><td>Tests</td><td>15%</td></tr>
-	<tr><td>Good style and program design</td><td>15%</td></tr>
-</table>
-
-### Submission instructions
-
-+ You should commit all source code to your assigned Github repository under a branch named `mp3`.
-+ Since you will be working in groups, only one submission per group is expected.
-+ You should submit a PDF file to Gradescope with the the following information:
-	+ Names of students in the group;
-	+ Github repository to which work was committed;
-	+ An estimate of the number of hours of work to complete this MP;
-	+ A short discussion (<= 100 words) on whether any other methods should be added to the `Graph` interface. Justify why a new method should be added or justify why it is complete as-is.
 
