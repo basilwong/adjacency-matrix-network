@@ -1,5 +1,4 @@
-﻿
-** The Graph ADT and Social Networks
+# The Graph ADT and Social Networks
 
 ### Background
 
